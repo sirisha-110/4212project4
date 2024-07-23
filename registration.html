@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <title>Registration page</title>
+        <link rel="stylesheet" href="styles.css">
+        <body background="backg.jpg"></body>
+        <body text="beige"></body>
+        <body leftmargin="20"></body>
+        <body aria-setsize="35"></body>
+    </head>
+    <body style="padding-left: 30px;">
+        <nav>
+        <ul>
+            <li><a href="home.html">HOME</a> </li>
+            <li><a href="about.html">ABOUT</a> </li>                
+            <li><a href="contact.html">CONTACT</a> </li>
+            <li><a href="services">SERVICES</a></li>
+            <li><a href="gallery.html">GALLERY</a> </li>
+            <li><a href="registration.html">REGISTRATION</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+        <form action="login.html">
+        <h1 >Registration Form</h1>
+        Name:<input type="text" name="fnm" autofocus placeholder="username"><br>
+        <br>
+        E-Mail:<input type="email" name="mail" placeholder="E-Mail"><br>
+        <br>
+        Mobile:<input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number" placeholder="Mobile"><br>
+        <br>
+        Date of Birth:<input type="date" name="dob"><br>
+        <br>
+        gender:<input type="radio" name="ml">male 
+                <input type="radio" name="fml">female<br>
+                <br>
+        Select Place:
+        <select name="your place">
+            <option value="OOTY">OOTY</option>
+            <option value="araku">ARAKU</option>
+            <option value="ladak">Ladakh</option>
+            <option value="ocean road">Great Ocean Road</option>
+            <option value="paris">PARIS</option>
+            <option value="greenland">Greenland.</option>
+            <option value="iceland">Iceland</option>
+        </select><br>
+        <br>
+        start point:<input type="text" name="start"><br>
+        <br>
+        destination point:<input type="text" name="end"><br>
+        <br>
+        <input type="submit">     
+        </form>
+    </body>
+</html>
